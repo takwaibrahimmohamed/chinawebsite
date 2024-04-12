@@ -135,7 +135,7 @@ const setLanguage=(lang)=>{
     })
 
 }
-
+setLanguage("chineese")
 const getLang=localStorage.getItem("lang")
 console.log(getLang)
 setLanguage(getLang)
