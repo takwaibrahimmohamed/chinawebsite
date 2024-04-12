@@ -245,7 +245,7 @@ const setLanguage=(lang)=>{
     })
 
 }
-setLanguage("chineese")
+localStorage.setItem("lang",chineese)
 // window.addEventListener(("load"),()=>{
 //     setLanguage("chineese")
 // })
